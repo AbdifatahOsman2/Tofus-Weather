@@ -89,10 +89,17 @@ api.openweathermap.org/data/2.5/weather?q=London&appid=b560b632d8ded19319545ec46
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | ---- | :---: |  :---: | :---: | :---: |
-| js Api | H | 3hrs | 0 | 0 |
+| APi Storage and manipulation | H | 3hrs | 0 | 0 |
 | setting up design | H | 2hr | 0 | 0s |
+| event listners | H | 2hr | 0 | 0s |
+| Display API data | H | 2hr | 0 | 0s |
+| search Input | H | 2hr | 0 | 0s |
+| Nav Bar | H | 2hr | 0 | 0s |
+| main sections | H | 3hr | 0 | 0s |
+| Bottom section/footer | H | 2hr | 0 | 0s |
 | Api and Dom manipulation | H | 3hrs| 0 | 0 |
-| styling | H | 4hrs| 0 | 0 |
+| Basic styling | 3H | hrs| 0 | 0 |
+| CSS animations | 3H | 2hr | 0 | 0s |
 
 
 ## Code Snippet
