@@ -68,25 +68,28 @@ api.openweathermap.org/data/2.5/weather?q=London&appid=b560b632d8ded19319545ec46
 
 
 #### MVP 
--Will display the weather of what you search
-
+-Use weather API to pull weather data
+-Allow user to search city and displays the temperature 
+- display "what it feels like" and the current temp
+- displays a background of current weather 
 #### PostMVP  
 
 -somehow get the users current location and display that city(before they search) and display the cities next to them
-
+-allow user to enter coordinates alongside city(and maybe more??)
 ## Priority Matrix
 
-![time frame](https://user-images.githubusercontent.com/88213280/131394399-df57e980-476a-40ef-823e-2913a37d63ff.jpg)
+![Priority](https://user-images.githubusercontent.com/88213280/131408537-6cd8b2ea-a33b-4c93-8188-1c9736819f3e.jpg)
+
 
 
 ## Timeframes
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | ---- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 1hrs | 0 | 0 |
-| Working with API | H | 2hr | 0 | 0s |
-| Api and Dom | H | 3hrs| 0 | 0 |
-| styling  | H | 4hrs| 0 | 0 |
+| js Api | H | 3hrs | 0 | 0 |
+| setting up design | H | 2hr | 0 | 0s |
+| Api and Dom manipulation | H | 3hrs| 0 | 0 |
+| styling | H | 4hrs| 0 | 0 |
 
 
 ## Code Snippet
