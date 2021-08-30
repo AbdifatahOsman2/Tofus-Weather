@@ -68,13 +68,16 @@ api.openweathermap.org/data/2.5/weather?q=London&appid=b560b632d8ded19319545ec46
 
 
 #### MVP 
--Use weather API to pull weather data
--Allow user to search city and displays the temperature 
+
+- Use weather API to pull weather data
+
+- Allow user to search city and displays the temperature 
 - display "what it feels like" and the current temp
 - displays a background of current weather 
 #### PostMVP  
 
 -somehow get the users current location and display that city(before they search) and display the cities next to them
+
 -allow user to enter coordinates alongside city(and maybe more??)
 ## Priority Matrix
 
