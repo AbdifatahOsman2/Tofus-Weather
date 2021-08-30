@@ -58,7 +58,11 @@ api.openweathermap.org/data/2.5/weather?q=London&appid=b560b632d8ded19319545ec46
 ```
 ## Wireframes
 
-Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
+![markup (1)](https://user-images.githubusercontent.com/88213280/131382068-7c4cb9d2-e898-488b-8d2a-d48da4fb2516.jpg)
+
+   Mobile smaller version
+![tofu weaher mobile](https://user-images.githubusercontent.com/88213280/131391694-4ced8de0-7979-4292-a75e-80dae5228ba5.jpg)
+
 
 ### MVP/PostMVP
 
@@ -72,25 +76,17 @@ Upload images of your wireframes to an image hosting site or add them to an asse
 
 ## Priority Matrix
 
-![markup (1)](https://user-images.githubusercontent.com/88213280/131382068-7c4cb9d2-e898-488b-8d2a-d48da4fb2516.jpg)
-![Mobile DIsplay](https://user-images.githubusercontent.com/88213280/131390383-4cd91132-8e51-4312-8095-001c40f62d25.jpg)
+![time frame](https://user-images.githubusercontent.com/88213280/131394399-df57e980-476a-40ef-823e-2913a37d63ff.jpg)
+
 
 ## Timeframes
 
-
-	FIRST: connect with API and manipulate DOM(3-4hours)
-	-connect API
-	- see if i can display data
-	-try and display data on the page
-	-put what city the user searches on display
-
-	Second: work on website layout(5-6hours)
-	-design the layout of page
-	-add css effects
-
-	 Third:Get the current Users location(on page load) and display on page
--
-
+| Component | Priority | Estimated Time | Time Invested | Actual Time |
+| ---- | :---: |  :---: | :---: | :---: |
+| Adding Form | H | 1hrs | 0 | 0 |
+| Working with API | H | 2hr | 0 | 0s |
+| Api and Dom | H | 3hrs| 0 | 0 |
+| styling  | H | 4hrs| 0 | 0 |
 
 
 ## Code Snippet
