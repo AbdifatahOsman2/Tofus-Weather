@@ -1,0 +1,25 @@
+body {
+    background: linear-gradient(to left, rgb(0, 0, 0), orange);
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 10vmin;
+    background: rgb(177, 74, 0);
+    justify-content: space-between;
+}
+
+.tofu-title {
+    position: relative;
+    font-size: 100px;
+    margin: 0;
+    padding-right: 500px;
+}
+
+.input-btn{
+    border: 2px solid black;
+    height: 50px;
+    margin-top: 20px;
+}
