@@ -77,17 +77,17 @@ Upload images of your wireframes to an image hosting site or add them to an asse
 ## Timeframes
 
 
-	FIRST DAY: connect with API and manipulate DOM
+	FIRST: connect with API and manipulate DOM(3-4hours)
 	-connect API
 	- see if i can display data
 	-try and display data on the page
 	-put what city the user searches on display
 
-	Second Day: work on website layout
+	Second: work on website layout(5-6hours)
 	-design the layout of page
 	-add css effects
 
-	 Third Day:Get the current Users location(on page load) and display on page
+	 Third:Get the current Users location(on page load) and display on page
 -
 
 
