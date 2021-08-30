@@ -87,7 +87,7 @@ Upload images of your wireframes to an image hosting site or add them to an asse
 	-design the layout of page
 	-add css effects
 
-	 Third Day:Get the current Users location and display on page
+	 Third Day:Get the current Users location(on page load) and display on page
 -
 
 
