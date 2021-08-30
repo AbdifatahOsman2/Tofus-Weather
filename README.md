@@ -73,6 +73,7 @@ Upload images of your wireframes to an image hosting site or add them to an asse
 ## Priority Matrix
 
 ![markup (1)](https://user-images.githubusercontent.com/88213280/131382068-7c4cb9d2-e898-488b-8d2a-d48da4fb2516.jpg)
+![Mobile DIsplay](https://user-images.githubusercontent.com/88213280/131390383-4cd91132-8e51-4312-8095-001c40f62d25.jpg)
 
 ## Timeframes
 
