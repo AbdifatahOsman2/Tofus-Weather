@@ -11,7 +11,7 @@ This website will display your citys weather. You can search for your city name 
 ## API and Data Sample
 
 api.openweathermap.org/data/2.5/weather?q=London&appid=b560b632d8ded19319545ec4688b144f
-
+```
 {
   "coord": {
     "lon": -0.1257,
@@ -55,7 +55,7 @@ api.openweathermap.org/data/2.5/weather?q=London&appid=b560b632d8ded19319545ec46
   "name": "London",
   "cod": 200
 }
-
+```
 ## Wireframes
 
 Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
