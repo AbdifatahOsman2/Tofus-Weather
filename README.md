@@ -98,8 +98,8 @@ api.openweathermap.org/data/2.5/weather?q=London&appid=b560b632d8ded19319545ec46
 | main sections | H | 3hr | 0 | 0s |
 | Bottom section/footer | H | 2hr | 0 | 0s |
 | Api and Dom manipulation | H | 3hrs| 0 | 0 |
-| Basic styling | 3H | hrs| 0 | 0 |
-| CSS animations | 3H | 2hr | 0 | 0s |
+| Basic styling | H | 3hrs| 0 | 0 |
+| CSS animations | H | 3hr | 0 | 0s |
 
 
 ## Code Snippet
