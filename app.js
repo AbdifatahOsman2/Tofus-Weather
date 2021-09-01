@@ -14,10 +14,10 @@ async function getWeatherData(city) {
         console.log(response.data)
         cityName.innerHTML = inputEl.value
         tempEL.textContent = data.main.temp + "°"
-        feelsEl.textContent += data.main.feels_like
-        highEl.textContent += data.main.temp_max
-        lowEl.textContent += data.main.temp_min
-        windEl.textContent += Math.floor(data.wind.speed) + "MPH"
+        feelsEl.textContent = "Feels Like: " + data.main.feels_like
+        highEl.textContent = "High of:  " + data.main.temp_max
+        lowEl.textContent = "Low of: " + data.main.temp_min
+        windEl.textContent = "Wind Speed: " + Math.floor(data.wind.speed) + "MPH"
     }catch(error){
         console.log(error)
     }
@@ -25,6 +25,6 @@ async function getWeatherData(city) {
 
 
 btnEl.addEventListener("click", () => {
-    event.preventDefault();
+
     getWeatherData(inputEl.value);
 })
