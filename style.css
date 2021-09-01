@@ -1,25 +1,81 @@
-body {
-    background: linear-gradient(to left, rgb(0, 0, 0), orange);
+
+body{
+
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(to left, white, cyan);
+ 
 }
 
-.nav-bar {
+
+.nav-container{
     display: flex;
-    flex-direction: row;
-    width: auto;
-    height: 10vmin;
-    background: rgb(177, 74, 0);
-    justify-content: space-between;
+    justify-content: center;
+    margin: 10px;
 }
 
-.tofu-title {
-    position: relative;
+.input{
+    width: 50vmin;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.Button {
+    margin: 10px;
+}
+.temperature{
     font-size: 100px;
+    font-weight: bolder;
     margin: 0;
-    padding-right: 500px;
+    color: red;
+    align-items: center;
+    grid-column: 3 / 3;
+    grid-row: 3 /  3;
+    align-items: center;
+}
+.city-container{
+    display: flex;
+    justify-content: center;
 }
 
-.input-btn{
-    border: 2px solid black;
-    height: 50px;
-    margin-top: 20px;
+.city-name{
+    font-size: 64px;
+    margin-top: 50px;
 }
+
+.temp-container{
+    height: 500px;
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(12 , 1fr);
+}
+
+.high-temperature{
+    font-size: 50px;
+    font-weight: bold;
+    grid-column: 4/ span 1;
+    grid-row: 1 /  1;
+}
+
+.low-temperature{
+    font-weight: bold;
+    font-size: 50px;
+    grid-column: 4 /span 1;
+    grid-row: 5 / span 1;
+}
+
+.feels-like{
+    font-weight: bold;
+    font-size: 50px;
+    grid-column: 3 / span 1;
+    grid-row: 4 /span 1;
+}
+
+.wind{
+    font-weight: bold;
+    font-size: 44px;
+    grid-column: 3 / span 1;
+    grid-row: 7 / span 1;
+}
+

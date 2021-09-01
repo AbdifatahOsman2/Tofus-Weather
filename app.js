@@ -1,14 +1,30 @@
+const inputEl = document.querySelector(".input")
+const cityName = document.querySelector(".city-name")
+const tempEL = document.querySelector(".temperature")
+const feelsEl = document.querySelector(".feels-like")
+const highEl = document.querySelector(".high-temperature")
+const lowEl = document.querySelector(".low-temperature")
+const windEl = document.querySelector(".wind")
+const btnEl = document.querySelector(".Button")
+
 async function getWeatherData(city) {
     try {
-        const response = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=b560b632d8ded19319545ec4688b144f`)
+        const response = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=b560b632d8ded19319545ec4688b144f&units=imperial`);
+        const data = response.data;
         console.log(response.data)
+        cityName.innerHTML = inputEl.value
+        tempEL.textContent = data.main.temp + "°"
+        feelsEl.textContent += data.main.feels_like
+        highEl.textContent += data.main.temp_max
+        lowEl.textContent += data.main.temp_min
+        windEl.textContent += Math.floor(data.wind.speed) + "MPH"
     }catch(error){
         console.log(error)
     }
 }
 
-getWeatherData("london")
 
-async function showWeather() {
-    
-}
+btnEl.addEventListener("click", () => {
+    event.preventDefault();
+    getWeatherData(inputEl.value);
+})
