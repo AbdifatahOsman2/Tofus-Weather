@@ -96,7 +96,7 @@ body{
         font-weight: bold;
         font-size: 40px;
         grid-column: 2 / span 1;
-        grid-row: 6 / span 1;
+        grid-row: 5 / span 1;
         margin: 10px;
     }
     .feels-like{

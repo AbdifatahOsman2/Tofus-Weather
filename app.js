@@ -11,7 +11,7 @@ async function getWeatherData(city) {
     try {
         const response = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=b560b632d8ded19319545ec4688b144f&units=imperial`);
         const data = response.data;
-        console.log(response.data)
+        console.log(response)
         cityName.innerHTML = inputEl.value
         tempEL.textContent = data.main.temp + "°"
         feelsEl.textContent = "Feels Like: " + data.main.feels_like + "°"
@@ -27,3 +27,12 @@ async function getWeatherData(city) {
 btnEl.addEventListener("click", () => {
     getWeatherData(inputEl.value);
 })
+
+
+
+// toggel degree sign to change to celsius 
+//add changing weather image/background
+// Logo for CSS on top corner(need grid?)
+// text transition animations for when u change the city
+
+
