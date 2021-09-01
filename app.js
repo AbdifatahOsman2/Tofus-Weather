@@ -10,6 +10,7 @@ const btnEl = document.querySelector(".Button")
 async function getWeatherData(city) {
     try {
         const response = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=b560b632d8ded19319545ec4688b144f&units=imperial`);
+        document.querySelector('.temp-container').style.animation = "fadein 2s linear 1";
         const data = response.data;
         console.log(response)
         cityName.innerHTML = inputEl.value

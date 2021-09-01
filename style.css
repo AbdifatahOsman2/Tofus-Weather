@@ -1,10 +1,17 @@
+@keyframes fadein {
+    0% {
+      opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 
 body{
-
     margin: 0px;
     padding: 0px;
-    background: linear-gradient(to left, white, cyan);
- 
+    background: linear-gradient(to left, white, cyan); 
 }
 
 
@@ -14,12 +21,24 @@ body{
     margin: 10px;
 }
 
+.tofu-logo {
+    margin: 15px;
+    position: relative;
+    border-radius: 50%;
+    height: 50px;
+    justify-self: flex-end;
+    cursor: pointer;
+}
 .input{
+    margin: auto;
     width: 50vmin;
     padding: 10px;
     font-size: 20px;
 }
 
+.search-and-btn{
+    margin: auto;
+}
 .Button {
     margin: 10px;
 }
@@ -32,6 +51,7 @@ body{
     grid-column: 3 / 3;
     grid-row: 3 /  3;
     align-items: center;
+    cursor: pointer;
 }
 .city-container{
     display: flex;
