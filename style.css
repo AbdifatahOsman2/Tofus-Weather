@@ -75,9 +75,8 @@ body{
 .wind{
     font-weight: bold;
     font-size: 44px;
-    grid-column: 3 / span 1;
-    grid-row: 7 / span 1;
-    cursor: pointer;
+    grid-column: 2 / span 1;
+    grid-row: 5 / span 1;
 }
 
 
