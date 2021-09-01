@@ -27,7 +27,20 @@ async function getWeatherData(city) {
 
 btnEl.addEventListener("click", () => {
     getWeatherData(inputEl.value);
+    document.querySelector('.temp-container').style.animation = "fadein 2s linear 1";
 })
+
+
+async function getHourlyWeather(city) {
+    try {
+        const response = await axios.get(`https://api.openweathermap.org/data/2.5/forecast/daily?q=${city}&cnt=4&appid=3616a57498522c3f1df43d6caaa2c964`)
+        console.log(response)
+    }catch(error){
+        console.log(error)
+    }
+}
+
+getHourlyWeather("london")
 
 
 
