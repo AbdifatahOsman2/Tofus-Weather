@@ -16,9 +16,9 @@ async function getWeatherData(city) {
         cityName.innerHTML = inputEl.value
         tempEL.textContent = data.main.temp + "°"
         feelsEl.textContent = "Feels Like: " + data.main.feels_like + "°"
-        highEl.textContent = "High of:  " + data.main.temp_max + "°"
-        lowEl.textContent = "Low of: " + data.main.temp_min + "°"
-        windEl.textContent = "Wind Speed: " + Math.floor(data.wind.speed) + "MPH"
+        highEl.textContent = "High:  " + data.main.temp_max + "°"
+        lowEl.textContent = "Low: " + data.main.temp_min + "°"
+        windEl.textContent = "Wind: " + Math.floor(data.wind.speed) + "MPH"
     }catch(error){
         console.log(error)
     }
@@ -31,16 +31,39 @@ btnEl.addEventListener("click", () => {
 })
 
 
-async function getHourlyWeather(city) {
-    try {
-        const response = await axios.get(`https://api.openweathermap.org/data/2.5/forecast/daily?q=${city}&cnt=4&appid=3616a57498522c3f1df43d6caaa2c964`)
-        console.log(response)
+const firstWeather = document.querySelector('.firstWeather')
+const secondWeather = document.querySelector('.secondWeather')
+const thirdWeather = document.querySelector('.thirdWeather')
+const fourthWeather = document.querySelector('.fourthWeather')
+
+
+navigator.geolocation.getCurrentPosition(getHourly)
+
+
+
+async function getHourly(location) {
+    try{
+        const lat = location.coords.latitude
+        const long = location.coords.longitude
+        console.log(lat)
+        const respnse = await axios.get(`https://api.weather.gov/gridpoints/TOP/${long},${lat}/forecast/hourly`)
+        const weather = respnse.data.properties.periods
+        console.log(respnse.data.properties)
+        firstWeather.textContent += weather[0].temperature
+        secondWeather.textContent += weather[1].temperature
+        thirdWeather.textContent += weather[2].temperature
+        fourthWeather.textContent += weather[3].temperature
     }catch(error){
-        console.log(error)
+        console.log(errror)
     }
 }
 
-getHourlyWeather("london")
+getHourly(location)
+
+
+
+
+
 
 
 
