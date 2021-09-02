@@ -11,7 +11,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    background: linear-gradient(to left, white, cyan); 
+    background: linear-gradient(to left, rgb(59, 1, 59), rgb(148, 148, 255)); 
     font-family: "Ubuntu", sans-serif;
 }
 
@@ -107,7 +107,7 @@ body{
 }
 
 
-
+/* 
 .first-container{
     justify-content: center;
     align-items: center;
@@ -160,7 +160,7 @@ body{
     background: linear-gradient(to top, rgb(236, 213, 3) ,rgb(247, 247, 247));
     margin: 10px;
     margin-top: 50px;
-}
+} */
 
 
 /* media quary */
@@ -200,8 +200,8 @@ body{
         height: 500px;
         width: auto;
         display: grid;
-        grid-template-columns: repeat(6, 1fr);
-        grid-template-rows: repeat(12 , 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2 , 1fr);
     }
     
     .high-temperature{
