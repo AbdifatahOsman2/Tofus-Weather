@@ -1,10 +1,8 @@
-# Tofus-Weather
-
 # Project Overview
 
 ## Project Name
 
-Tofus Weather
+Tofus Weather https://tofusweatherapp.netlify.app/
 
 ## Project Description
 This website will display your citys weather. You can search for your city name and the data for that city will show
